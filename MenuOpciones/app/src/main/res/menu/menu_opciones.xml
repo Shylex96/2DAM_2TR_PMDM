@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mFile"
+        android:title="@string/menuFile" >
+        <menu>
+            <item
+                android:id="@+id/mOpen"
+                android:title="@string/menuOpen" />
+            <item
+                android:id="@+id/mSave"
+                android:title="@string/menuSave" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mSettings"
+        android:title="@string/menuSettings" />
+</menu>
