@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FrasesFamosasApp</string>
+    <string name="title_activity_agregar_frase">Agregar Frase Famosa</string>
+    <string name="title_activity_editar_frase">Editar Frase Famosa</string>
+    <string name="txtHintFrase">Aquí la frase</string>
+    <string name="txtHintAutor">Aquí su autor</string>
+    <string name="txtBtnGuardar">Guardar</string>
+    <string name="txtBtnCancelar">Cancelar</string>
+    <string name="txtEditandoFrase">Editando frase</string>
+</resources>
