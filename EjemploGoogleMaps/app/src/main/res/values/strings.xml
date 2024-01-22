@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EjemploGoogleMaps</string>
+    <string name="google_maps_key"
+        templateMergeStrategy="preserve"
+        translatable="false">
+ AIzaSyBkT5ndzzCTJyZtFEKgBEQuYLIaZcTsHRk
+ </string>
+    <string name="txtBoton1">Ir a Studium</string>
+    <string name="txtBoton2">Volar a Studium</string>
+    <string name="txtBoton3">Marcador</string>
+</resources>
