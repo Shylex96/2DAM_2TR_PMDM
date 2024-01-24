@@ -60,6 +60,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         mapa.animateCamera(CameraUpdateFactory.newLatLng(grupoStudium));
     }
     public void addMarker(View view)
+
     {
         mapa.addMarker(new MarkerOptions().position(
                 mapa.getCameraPosition().target));

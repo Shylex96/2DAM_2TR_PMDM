@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/sensorProximidad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensajeSensor"
+        app:layout_constraintBottom_toTopOf="@+id/sensorDeMovimiento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/sensorTemperatura"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensajeSensor"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+    <TextView
+        android:id="@+id/sensorLuz"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensajeSensor"
+        app:layout_constraintBottom_toTopOf="@+id/sensorDeOrientacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sensorDeMovimiento" />
+    <TextView
+        android:id="@+id/sensorAceleracion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensajeSensor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etiqSensorDeOrientacion" />
+
+    <TextView
+        android:id="@+id/sensorOrientacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensajeSensor" />
+</LinearLayout>
