@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AccesoApi</string>
+    <string name="lblId">id</string>
+    <string name="lblNombre">Nombre</string>
+    <string name="lblApellidos">Apellidos</string>
+    <string name="lblTelefono">Teléfono</string>
+    <string name="lblAnterior">Anterior</string>
+    <string name="lblSiguiente">Siguiente</string>
+    <string name="lblNuevo">Nuevo</string>
+    <string name="lblEliminar">Eliminar</string>
+    <string name="lblModificar">Modificar</string>
+    <string name="lblAceptar">Aceptar</string>
+</resources>

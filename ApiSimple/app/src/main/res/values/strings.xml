@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ApiSimple</string>
+    <string name="etiquetaUserId">User ID</string>
+    <string name="etiquetaId">ID</string>
+    <string name="etiquetaTitle">Title</string>
+    <string name="etiquetaCompleted">Completed</string>
+    <string name="etiquetaBoton">Conectar</string>
+</resources>
